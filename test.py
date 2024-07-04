@@ -1,0 +1,1 @@
+print(None not in [0, None, 0])
