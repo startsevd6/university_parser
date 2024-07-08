@@ -17,7 +17,7 @@ def info_from_table(text, l, r, curr_competition):
             if int(delo) == 0:
                 return None
         if text[i:i + 20] == 'СНИЛС / Номер дела: ':
-            snils = text[i + 27:i + 40].strip()
+            snils = text[i + 27:i + 41].strip()
             if snils == delo:
                 snils = 'нет'
         if text[i:i + 8] == 'priority':
